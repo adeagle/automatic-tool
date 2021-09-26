@@ -1,6 +1,7 @@
 #! /usr/bin/expect
 
-spawn sh image.sh
+spawn bash expansion.sh
+# spawn bash expansionloop.sh
 expect "Command (m for help): "
 send "d\r"
 expect "Partition number (1-4, default 4): "
